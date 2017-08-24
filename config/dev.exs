@@ -56,3 +56,5 @@ config :phoenix_chat_example, PhoenixChatExample.Repo,
   database: "phoenix_chat_example_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :appsignal, :config, active: true

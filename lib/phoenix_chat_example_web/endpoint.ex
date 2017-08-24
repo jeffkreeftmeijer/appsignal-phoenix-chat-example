@@ -38,6 +38,7 @@ defmodule PhoenixChatExampleWeb.Endpoint do
     key: "_phoenix_chat_example_key",
     signing_salt: "pyyMoyM8"
 
+  use Appsignal.Phoenix
   plug PhoenixChatExampleWeb.Router
 
   @doc """
